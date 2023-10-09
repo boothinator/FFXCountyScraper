@@ -1,7 +1,7 @@
 ﻿function Pull-Content($url)
 {
     $response = Invoke-WebRequest $url
-    return $response.ParsedHtml.getElementById("main-content").parentElement().outerHTML
+    return $response.ParsedHtml.getElementById("main-content").parentElement().outerText
 }
 
 $items = @(@{
@@ -242,6 +242,10 @@ foreach ($item in $items)
 
     $item.Add("diff", ($diff | ConvertTo-Csv))
     $item | format-list | out-file -append $diffPath -width 100000
+
+    if ($diff.length -gt 0) {
+        $item
+    }
 
     sleep -Milliseconds 200
 }
