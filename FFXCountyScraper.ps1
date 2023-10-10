@@ -46,13 +46,13 @@ $items = @(@{
     district = "Braddock"
     url = "https://www.fairfaxcounty.gov/planning-development/fairfax-center"
 },
-<#@{ # Can't find page
+@{
     folder = "Centreville Study"
     paNumber = "2022-III-BR1"
     plusNumber = "PA-2022-00008"
     district = "Sully"
-    url = ""
-},#>
+    url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/centreville-study"
+},
 @{
     folder = "Lorton Visioning"
     paNumber = "2021-IV-LP1"
@@ -68,7 +68,7 @@ $items = @(@{
     url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/innovation-center-tsa-north"
 },
 @{
-    folder = "Springfield TSA/CBC Study"
+    folder = "Springfield TSA CBC Study"
     paNumber = "2023-IV-1S"
     plusNumber = "PA-2023-00003"
     district = "Franconia"
@@ -94,14 +94,14 @@ $items = @(@{
     plusNumber = "PA-2023-00006"
     district = "Franconia"
     url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/franconia-triangle"
-}<#, # Can't find URL
+},
 @{
     folder = "Reston TSA Study"
     paNumber = "2023-III-6UP"
     plusNumber = "PA-2023-00006"
     district = "Franconia"
-    url = ""
-}#>,
+    url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/reston-tsa-study"
+},
 @{
     folder = "Brookside Motel"
     paNumber = "2021-IV-MV1"
@@ -395,6 +395,13 @@ $items = @(@{
     folder = "Vine Street"
     plusNumber = "PA-2023-00034"
     district = "Franconia"
+},
+@{
+    url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/i95-corridor-industrial-area"
+    paNumber = "2023-IV-5S"
+    folder = "I-95 Corridor Industrial Area"
+    plusNumber = "PA-2023-00023"
+    district = "Mount Vernon/Franconia"
 }
 
 )
