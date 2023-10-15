@@ -1,8 +1,4 @@
-﻿function Pull-Content($url)
-{
-    $response = Invoke-WebRequest $url
-    return $response.ParsedHtml.getElementById("main-content").parentElement().outerText
-}
+﻿
 
 $items = @(@{
     folder = "Policy Plan Amendments"
@@ -426,9 +422,15 @@ $items = @(@{
 
 )
 
+function Pull-Content($url)
+{
+    $response = Invoke-WebRequest $url
+    return $response.ParsedHtml.getElementById("main-content").parentElement().outerText
+}
+
 $rootPath = $PSCommandPath | Split-Path -Parent
 $timestamp = Get-Date -Format o | ForEach-Object { $_ -replace ":", "." }
-$diffPath = "$($rootPath)/content-$($timestamp).txt"
+$diffPath = "$($rootPath)/updates-$($timestamp).csv"
 
 foreach ($item in $items)
 {
@@ -438,7 +440,7 @@ foreach ($item in $items)
     $contentTimestampPath = "$($folderPath)/content-$($timestamp).html"
 
     if (-not (test-path $folderPath)) {
-        new-item -ItemType Directory $folderPath
+        new-item -ItemType Directory $folderPath | Out-Null
     }
 
     $prevContent = ""
@@ -456,11 +458,11 @@ foreach ($item in $items)
 
     $diff = Compare-Object $prevContent $content
 
-    $item.Add("diff", ($diff | ConvertTo-Csv))
-    $item | format-list | out-file -append $diffPath -width 100000
-
-    if ($diff.length -gt 0) {
-        $item
+    if ($diff) {
+        $diffString = ($diff | ConvertTo-Csv -NoTypeInformation) -join "`n"
+        $item.Add("diff", $diffString)
+        ([pscustomobject]$item) | Export-Csv -Append -Path $diffPath -NoTypeInformation
+        Write-Host $diffString
     }
 
     sleep -Milliseconds 200

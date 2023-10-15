@@ -1,3 +1,4 @@
 ﻿*/*
 *.txt
+*.csv
 !FFXCountyScraper.ps1
