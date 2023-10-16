@@ -400,6 +400,13 @@ $items = @(@{
     district = "Mount Vernon/Franconia"
 },
 @{
+    url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/topgolf"
+    paNumber = "2015-IV-RH1"
+    folder = "Topgolf"
+    plusNumber = "PA-2020-00006"
+    district = "Franconia"
+},
+@{
     url = "https://www.fairfaxcounty.gov/mason/mason-district-land-use-and-development"
     folder = "Mason District Land Use Advisory Committee"
 },
