@@ -409,22 +409,37 @@ $items = @(@{
 @{
     url = "https://www.fairfaxcounty.gov/mason/mason-district-land-use-and-development"
     folder = "Mason District Land Use Advisory Committee"
+    paNumber = ""
+    plusNumber = ""
+    district = "Mason"
 },
 @{
     url = "https://www.fairfaxcounty.gov/springfield/springfield-district-land-use-committee"
     folder = "Springfield District Land Use Committee"
+    paNumber = ""
+    plusNumber = ""
+    district = "Springfield"
 },
 @{
     url = "https://www.fairfaxcounty.gov/huntermill/land-use-and-zoning"
     folder = "Restong Planning and Zoning Committee and Hunter Mill Land Use Committee"
+    paNumber = ""
+    plusNumber = ""
+    district = "Hunter Mill"
 },
 @{
     url="https://www.fairfaxcounty.gov/publicworks/reston-town-center-north-rtcn"
     folder = "Reston Town Center North"
+    paNumber = ""
+    plusNumber = ""
+    district = "Hunter Mill"
 },
 @{
     url="https://www.fairfaxcounty.gov/transportation/study/gallows-road"
     folder="Gallows Road Transportation Study"
+    paNumber = ""
+    plusNumber = ""
+    district = ""
 }
 
 )
