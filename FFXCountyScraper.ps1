@@ -8,6 +8,13 @@ $items = @(@{
     url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/Countywide-policy-plan-update"
 },
 @{
+    folder = "Richmond Highway BRT"
+    paNumber = ""
+    plusNumber = ""
+    district = "Countywide"
+    url = "https://www.fairfaxcounty.gov/transportation/richmond-hwy-brt"
+},
+@{
     folder = "Manufactured Housing"
     paNumber = "2022-CW-1CP"
     plusNumber = "PA-2022-00006"
@@ -95,8 +102,43 @@ $items = @(@{
     folder = "Reston TSA Study"
     paNumber = "2023-III-6UP"
     plusNumber = "PA-2023-00006"
-    district = "Franconia"
+    district = "Hunter Mill"
     url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/reston-tsa-study"
+},
+@{
+    folder = "1950 Roland Clarke Place"
+    paNumber = "2023-III-12UP"
+    plusNumber = "PA-2023-00048"
+    district = "Hunter Mill"
+    url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/reston-tsa-study/1950-roland-clarke-pl"
+},
+@{
+    folder = "Reston Corner"
+    paNumber = "2023-III-13UP"
+    plusNumber = "PA-2023-00049"
+    district = "Hunter Mill"
+    url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/reston-tsa-study/reston-corner"
+},
+@{
+    folder = "Roger Bacon Drive"
+    paNumber = "2023-III-UP8"
+    plusNumber = "PA-2023-00043"
+    district = "Hunter Mill"
+    url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/roger-bacon-dr"
+},
+@{
+    folder = "Samuel Morse Drive"
+    paNumber = "2023-III-11UP"
+    plusNumber = "PA-2023-00047"
+    district = "Hunter Mill"
+    url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/reston-tsa-study/samuel-morse-dr"
+},
+@{
+    folder = "Lake Fairfax Business Center"
+    paNumber = "2023-III-9UP"
+    plusNumber = "PA-2023-00045"
+    district = "Hunter Mill"
+    url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/reston-tsa-study/lake-fairfax-business-center"
 },
 @{
     folder = "Brookside Motel"
@@ -107,7 +149,7 @@ $items = @(@{
 },
 @{
     folder = "Judicial Complex"
-    paNumber = "2021-IV-MV1"
+    paNumber = "2022-II-F1"
     plusNumber = "PA-2022-00007"
     district = "Providence"
     url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/judicial-complex"
@@ -315,13 +357,13 @@ $items = @(@{
     plusNumber = "PA-2020-00009"
     district = "Mount Vernon"
 },
-@{
+<#@{
     url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/brookfield"
     paNumber = "2023-III-7UP"
     folder = "Brookfield"
     plusNumber = "PA-2023-00032"
     district = "Hunter Mill"
-},
+},#>
 @{
     url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/church-good-shepherd"
     paNumber = "2023-II-3F"
@@ -343,13 +385,13 @@ $items = @(@{
     plusNumber = "PA-2023-00037"
     district = "Providence"
 },
-@{
+<#@{
     url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/icf-building"
     paNumber = "2023-II-2V"
     folder = "ICF Building"
     plusNumber = "PA-2023-00036"
     district = "Providence"
-},
+},#>
 @{
     url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/mt-vernon-highway"
     paNumber = "2021-IV-2MV"
