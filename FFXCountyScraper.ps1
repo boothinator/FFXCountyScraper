@@ -482,6 +482,13 @@ $items = @(@{
     paNumber = ""
     plusNumber = ""
     district = ""
+},
+@{
+    url="https://www.fairfaxcounty.gov/planning-development/plan-amendments/7426-idylwood-rd"
+    folder="7426 Idylwood Road"
+    paNumber = "2024-I-1J"
+    plusNumber = "PA-2024-00001"
+    district = "Providence"
 }
 
 )
