@@ -99,6 +99,13 @@ $items = @(@{
     url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/franconia-triangle"
 },
 @{
+    folder = "Franconia Government Center"
+    paNumber = ""
+    plusNumber = ""
+    district = "Franconia"
+    url = "https://www.fairfaxcounty.gov/topics/Franconia-Governmental-Center-Site"
+},
+@{
     folder = "Reston TSA Study"
     paNumber = "2023-III-6UP"
     plusNumber = "PA-2023-00006"
@@ -201,7 +208,7 @@ $items = @(@{
     paNumber = "2023-I-3J"
     plusNumber = "PA-2023-00012"
     district = "Providence"
-    url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/sequoia-capital"
+    url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/prosperity-business"
 },
 @{
     folder = "Agape House"
@@ -245,13 +252,13 @@ $items = @(@{
     district = "Franconia"
     url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/inova-springfield-center-dr"
 },
-@{
+<#@{
     folder = "6320 Grovedale Drive"
     paNumber = "2023-IV-3S"
     plusNumber = "PA-2023-00017"
     district = "Franconia"
     url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/6230-grovedale-dr"
-},
+},#>
 @{
     folder = "A_A Contracting"
     paNumber = "2023-III-2BR"
@@ -295,9 +302,9 @@ $items = @(@{
     url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/discovery-square"
 },
 @{
-    url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/elm-st-communities"
+    url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/7600-leesburg-pike"
     paNumber = "2023-II-1M"
-    folder = "Elm Street Communities"
+    folder = "7600 Leesburg Pike"
     plusNumber = "PA-2023-00016"
     district = "Dranesville"
 },
@@ -441,13 +448,13 @@ $items = @(@{
     plusNumber = "PA-2023-00023"
     district = "Mount Vernon/Franconia"
 },
-@{
+<#@{
     url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/topgolf"
     paNumber = "2015-IV-RH1"
     folder = "Topgolf"
     plusNumber = "PA-2020-00006"
     district = "Franconia"
-},
+},#>
 @{
     url = "https://www.fairfaxcounty.gov/mason/mason-district-land-use-and-development"
     folder = "Mason District Land Use Advisory Committee"
