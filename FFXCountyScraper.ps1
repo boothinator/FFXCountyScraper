@@ -64,6 +64,13 @@ $items = @(@{
     url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/lorton-visioning"
 },
 @{
+    folder = "Lorton Visioning - Community Engagement page"
+    paNumber = "2021-IV-LP1"
+    plusNumber = "PA-2021-00011"
+    district = "Mount Vernon"
+    url = "https://www.fairfaxcounty.gov/planning-development/plan-amendments/lorton-visioning/community-engagement"
+},
+@{
     folder = "Innovation Center TSA North Study"
     paNumber = "2023-III-1UP"
     plusNumber = "PA-2023-00002"
