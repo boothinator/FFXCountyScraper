@@ -503,6 +503,20 @@ $items = @(@{
     paNumber = "2024-I-1J"
     plusNumber = "PA-2024-00001"
     district = "Providence"
+},
+@{
+    url="https://www.fairfaxcounty.gov/transportation/study/mclean-cbc"
+    folder="McLean CBC"
+    paNumber = ""
+    plusNumber = ""
+    district = "Dranesville"
+},
+@{
+    url="https://www.fairfaxcounty.gov/planning-development/plan-amendments/sspa/countywide/2025/community-meetings"
+    folder="SSPA 2025 Meetings"
+    paNumber = ""
+    plusNumber = ""
+    district = "Countywide"
 }
 
 )
